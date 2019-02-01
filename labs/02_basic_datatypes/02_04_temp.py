@@ -10,3 +10,5 @@ Output should read like - "81.32 degrees fahrenheit = 27.4 degrees celsius"
 
 
 '''
+F = int(input("enter Fahrenheit"))
+ print (F, "degrees fahrenheit", "=", C, "degrees celsius")

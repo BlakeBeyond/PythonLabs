@@ -10,3 +10,7 @@ Demonstrate how to:
     Take note of what information is lost when some conversions take place.
 
 '''
+i = 100
+f = float(i)
+i2=int(f)
+f//i
