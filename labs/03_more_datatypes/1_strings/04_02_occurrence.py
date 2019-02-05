@@ -7,3 +7,8 @@ Letter input:
 Result: 4
 
 '''
+var = input("enter your favorite word: ")
+
+var2 = input("and your favourite letter of that word : ")
+
+print(var.find(var2))
