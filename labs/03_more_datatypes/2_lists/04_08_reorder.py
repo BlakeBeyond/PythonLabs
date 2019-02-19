@@ -7,3 +7,9 @@ Example input: 1,2,3,4,5,6,7,8,9,10
 Example output: 2,4,6,8,10,9,7,5,3,1
 
 '''
+numbers = [int(n, 10) for n in input("gimme 10 numberz boi and u better separate them with spaces: ").split()]
+list1 = list(numbers)
+from operator import itemgetter
+print(*itemgetter(1, 3, 5, 7, 9, 8, 6, 4, 2, 0)(list1))
+
+

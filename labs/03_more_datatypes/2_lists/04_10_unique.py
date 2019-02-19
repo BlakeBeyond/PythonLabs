@@ -6,3 +6,7 @@ unique_list = [55, 'hi', 4, 13]
 
 
 '''
+mylist = [1, 2, 6, 55, 2, 'hi', 4, 6, 1, 13]
+myset = set(mylist)
+list1 = list(myset)
+print(list1)
