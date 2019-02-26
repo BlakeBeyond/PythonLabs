@@ -8,3 +8,9 @@ Use a loop to print the following table to the console:
  40 41 42 43 44 45 46 47 48 49
 
 '''
+example_list = [2, 5, 7, 9, 3, 8, 8]
+sum = 0
+for x in example_list:
+      sum = sum + x
+
+print(sum)

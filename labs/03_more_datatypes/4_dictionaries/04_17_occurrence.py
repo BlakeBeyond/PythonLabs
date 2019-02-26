@@ -6,3 +6,17 @@ user_input = "hello"
 result = {"h": 1, "e": 1, "l": 2, "o": 1}
 
 '''
+
+item = input("Just give me a word man: ")
+items = list(item)
+new_dict = {}
+from collections import Counter
+x = Counter(items)
+print(x)
+
+
+
+
+
+
+

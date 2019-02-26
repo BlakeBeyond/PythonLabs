@@ -1,0 +1,1 @@
+print('Niccolo Machiavelli once said: ' + '"A prince must therefore be a fox to recognize traps, and a lion to frighten wolves"')
